@@ -1,16 +1,16 @@
 :root{
     /* 메인영어폰트 */--mainEng-font:"Lilita One", "sans-serif";
-    /* 메인한글폰트 */--mainKor-font:"black-han sans-regular";
+    /* 메인한글폰트 */--mainKor-font:"black-han";
     /* 메인숫자폰트 */--mainNum-font:"kanit-regular-italic";
 
-    /* 메인 bg컬러 */--mainBg-color:#000;
-    /* 서브 bg400 */--subBg100:
-    /* 서브 bg100 */--subBg200:
-    /* 서브 bg200 */--subBg300:
-    /* 서브 bg300 */--subBg400:
-    /* 서브 bg500 */--subBg500:
+    /* 메인 bg컬러 */--mainBg-color:#f3f3f3;
+    /* 서브 bg400 */--subBg100:#55f30b;
+    /* 서브 bg100 */--subBg200:#5cf756;
+    /* 서브 bg200 */--subBg300:#76f086;
+    /* 서브 bg300 */--subBg400:#70ec85;
+    /* 서브 bg500 */--subBg500:#d3f8cc;
 
-    --white:#fff;
+    --white:#ffffff;
     --black:#000;
     --black100:#2b2b2b;
     --black200:#434343;
@@ -18,7 +18,7 @@
     --black400:#e0e0e0;
 
     font-family: var(--mainEng-font),var(--mainKor-font);
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 1.5;
     font-weight: 400;
 
@@ -32,13 +32,13 @@
 
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     :root{
         font-size: 14px;
-    }
+    } 
+}
 
-    body{
+ body{
         color: var(--black);
         background-color: var(--mainBg-color);
     }
-}
