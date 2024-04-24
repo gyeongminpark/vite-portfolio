@@ -1,6 +1,6 @@
 :root{
     /* 메인영어폰트 */--mainEng-font:"Lilita One", "sans-serif";
-    /* 메인한글폰트 */--mainKor-font:"black-han";
+    /* 메인한글폰트 */--mainKor-font:"Do Hyeon", sans-serif;
     /* 메인숫자폰트 */--mainNum-font:"kanit-regular-italic";
 
     /* 메인 bg컬러 */--mainBg-color:#f3f3f3;
