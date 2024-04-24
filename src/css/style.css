@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* setting */
-@import '@splidejs/splide/css';
+@import url(@splidejs/splide/css);
 @import url(setting/fonts.css);
 @import url(setting/vars.css);
 @import url(setting/reset.css);

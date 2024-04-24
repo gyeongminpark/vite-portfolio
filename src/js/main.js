@@ -13,4 +13,5 @@ window.addEventListener('load',function(){
     intro()
     work()
     graphics()
+    splide()
 })
